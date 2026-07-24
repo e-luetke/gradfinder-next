@@ -3,15 +3,15 @@ import Link from 'next/link'
 import { PROGRAMS } from '@/lib/programs'
 
 export const metadata = {
-  metadataBase: new URL('https://gradfinder.app'), // update when you have a real domain
+  metadataBase: new URL('https://anotherdegreehotter.com'),
   title: {
-    default: 'GradFinder — Graduate Program Browser for the US & Canada',
-    template: '%s | GradFinder',
+    default: 'Another Degree Hotter — Graduate Program Browser for the US & Canada',
+    template: '%s | Another Degree Hotter',
   },
   description:
     'Browse and filter graduate programs across the US and Canada. Search by field, filter by GPA requirement, portfolio, and personal statement requirements.',
   openGraph: {
-    siteName: 'GradFinder',
+    siteName: 'Another Degree Hotter',
     type: 'website',
   },
 }
@@ -23,8 +23,7 @@ export default function RootLayout({ children }) {
         <header className="site-header">
           <div className="site-header__inner">
             <Link href="/" className="logo">
-              <span className="logo__mark">G</span>
-              <span>radFinder</span>
+              Another Degree Hotter
             </Link>
             <p className="site-header__tagline">
               Graduate program browser — US &amp; Canada
@@ -40,7 +39,7 @@ export default function RootLayout({ children }) {
         <footer className="site-footer">
           <div className="site-footer__inner">
             <p>
-              GradFinder aggregates publicly available information from graduate program
+              Another Degree Hotter aggregates publicly available information from graduate program
               websites. GPA recommendations and application requirements are based on
               available program data and may change.{' '}
               <strong>Always verify requirements directly with each program before applying.</strong>

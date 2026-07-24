@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: 'Terms of Service',
-  description: 'Terms governing your use of GradFinder, a graduate program directory for the US and Canada.',
+  description: 'Terms governing your use of Another Degree Hotter, a graduate program directory for the US and Canada.',
 }
 
 export default function TosPage() {
@@ -27,16 +27,16 @@ export default function TosPage() {
 
           <section className="guide-section">
             <p className="guide-section__para">
-              These Terms of Service ("Terms") govern your use of the GradFinder website
-              at gradfinder.app (the "Site"). By accessing or using the Site you agree to
+              These Terms of Service ("Terms") govern your use of the Another Degree Hotter website
+              at anotherdegreehotter.com (the "Site"). By accessing or using the Site you agree to
               these Terms. If you do not agree, please do not use the Site.
             </p>
           </section>
 
           <section className="guide-section">
-            <h2 className="guide-section__heading">What GradFinder Is</h2>
+            <h2 className="guide-section__heading">What Another Degree Hotter Is</h2>
             <p className="guide-section__para">
-              GradFinder is a free, publicly accessible directory of graduate programs at
+              Another Degree Hotter is a free, publicly accessible directory of graduate programs at
               universities in the United States and Canada. It is intended to help
               prospective students explore and compare programs. It is not affiliated with,
               endorsed by, or operated by any university or graduate program listed on
@@ -58,7 +58,7 @@ export default function TosPage() {
                 Always verify current requirements directly with each program before
                 applying.
               </strong>{' '}
-              GradFinder is not responsible for any application decisions, outcomes, or
+              Another Degree Hotter is not responsible for any application decisions, outcomes, or
               losses arising from reliance on information found on this Site.
             </p>
           </section>
@@ -79,7 +79,7 @@ export default function TosPage() {
             <p className="guide-section__para">
               The design, code, written content (including guide articles), and selection
               and arrangement of program information on this Site are the property of
-              GradFinder and are protected by copyright. University names, program names,
+              Another Degree Hotter and are protected by copyright. University names, program names,
               and degree titles belong to their respective institutions and are used here
               for identification and informational purposes under the nominative fair use
               doctrine established in trademark law.
@@ -107,7 +107,7 @@ export default function TosPage() {
             <p className="guide-section__para">
               The Site may display advertisements served by Google AdSense and other
               third-party advertising networks. These advertisements are clearly
-              distinguishable from Site content. GradFinder does not control the content
+              distinguishable from Site content. Another Degree Hotter does not control the content
               of third-party advertisements.
             </p>
           </section>
@@ -126,7 +126,7 @@ export default function TosPage() {
           <section className="guide-section">
             <h2 className="guide-section__heading">Limitation of Liability</h2>
             <p className="guide-section__para">
-              TO THE FULLEST EXTENT PERMITTED BY LAW, GRADFINDER AND ITS OPERATORS SHALL
+              TO THE FULLEST EXTENT PERMITTED BY LAW, ANOTHER DEGREE HOTTER AND ITS OPERATORS SHALL
               NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR
               PUNITIVE DAMAGES ARISING FROM YOUR USE OF, OR INABILITY TO USE, THE SITE
               OR ITS CONTENT, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
@@ -146,7 +146,7 @@ export default function TosPage() {
             <h2 className="guide-section__heading">Governing Law</h2>
             <p className="guide-section__para">
               These Terms are governed by the laws of the United States and the state in
-              which GradFinder is operated, without regard to conflict of law principles.
+              which Another Degree Hotter is operated, without regard to conflict of law principles.
             </p>
           </section>
 
@@ -154,7 +154,7 @@ export default function TosPage() {
             <h2 className="guide-section__heading">Contact</h2>
             <p className="guide-section__para">
               Questions about these Terms? Email us at{' '}
-              <a href="mailto:contact@gradfinder.app">contact@gradfinder.app</a>.
+              <a href="mailto:contact@anotherdegreehotter.com">contact@anotherdegreehotter.com</a>.
             </p>
           </section>
 
@@ -163,7 +163,7 @@ export default function TosPage() {
         <div className="legal-footer-links">
           <Link href="/privacy">Privacy Policy</Link>
           <span>·</span>
-          <Link href="/about">About GradFinder</Link>
+          <Link href="/about">About</Link>
         </div>
 
       </div>

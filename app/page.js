@@ -2,7 +2,7 @@ import { PROGRAMS } from '@/lib/programs'
 import SearchClient from '@/components/SearchClient'
 
 export const metadata = {
-  title: 'GradFinder — Search Graduate Programs in the US & Canada',
+  title: 'Another Degree Hotter — Search Graduate Programs in the US & Canada',
   description:
     'Browse and filter graduate programs across the US and Canada by field, GPA requirement, portfolio requirement, and personal statement. Search geography, environmental policy, urban planning, GIS, public policy, and more.',
 }

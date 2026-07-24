@@ -1,8 +1,8 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'About GradFinder',
-  description: 'GradFinder is a free graduate program directory covering 333 programs across 26 fields at US and Canadian universities.',
+  title: 'About',
+  description: 'Another Degree Hotter is a free graduate program directory covering 333 programs across 26 fields at US and Canadian universities.',
 }
 
 export default function AboutPage() {
@@ -17,14 +17,14 @@ export default function AboutPage() {
         </nav>
 
         <header className="guide-header">
-          <h1 className="guide-title">About GradFinder</h1>
+          <h1 className="guide-title">About Another Degree Hotter</h1>
         </header>
 
         <article className="guide-body">
 
           <section className="guide-section">
             <p className="guide-section__para">
-              GradFinder is a free graduate program directory covering more than 330 programs
+              Another Degree Hotter is a free graduate program directory covering more than 330 programs
               across 26 fields at universities in the United States and Canada. It is built
               for prospective graduate students who want to quickly filter programs by
               minimum GPA, portfolio requirement, personal statement requirement, and
@@ -39,12 +39,12 @@ export default function AboutPage() {
               Searching for graduate programs is genuinely tedious. Requirements like GPA
               recommendations and portfolio expectations are often buried deep inside
               admissions FAQs, scattered across multiple pages, or updated mid-cycle.
-              GradFinder aggregates the most commonly searched attributes into one
+              Another Degree Hotter aggregates the most commonly searched attributes into one
               searchable, filterable list.
             </p>
             <p className="guide-section__para">
               Every listing links directly to the official program admissions page at the
-              university, because that is always the authoritative source. GradFinder is a
+              university, because that is always the authoritative source. Another Degree Hotter is a
               starting point for research, not a substitute for reading the actual
               admissions requirements.
             </p>
@@ -80,7 +80,7 @@ export default function AboutPage() {
             <h2 className="guide-section__heading">Data Currency</h2>
             <p className="guide-section__para">
               Program requirements change. Deadlines change. Programs open, close, and
-              restructure. The data in GradFinder is reviewed periodically, but there will
+              restructure. The data in Another Degree Hotter is reviewed periodically, but there will
               always be a lag. The "Data reviewed 2025" note in the footer is the baseline;
               we aim to refresh the dataset annually. If you find an error or an outdated
               entry, please let us know using the contact address below.
@@ -90,7 +90,7 @@ export default function AboutPage() {
           <section className="guide-section">
             <h2 className="guide-section__heading">Fields Covered</h2>
             <p className="guide-section__para">
-              GradFinder currently covers the following 26 fields: Geography, Environmental
+              Another Degree Hotter currently covers the following 26 fields: Geography, Environmental
               Management, Environmental Policy, Urban Planning, Public Policy, Landscape
               Architecture, Climate Studies, Sustainability Science, Geographic Information
               Science, Conservation Biology, International Affairs, Business Administration,
@@ -104,7 +104,7 @@ export default function AboutPage() {
             <h2 className="guide-section__heading">Contact</h2>
             <p className="guide-section__para">
               For corrections, questions, or partnership inquiries, email us at{' '}
-              <a href="mailto:contact@gradfinder.app">contact@gradfinder.app</a>.
+              <a href="mailto:contact@anotherdegreehotter.com">contact@anotherdegreehotter.com</a>.
             </p>
             <p className="guide-section__para">
               Response time is typically 2–5 business days. We welcome corrections to

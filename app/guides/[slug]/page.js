@@ -39,8 +39,8 @@ export default async function GuidePage({ params }) {
     datePublished: g.publishDate,
     publisher: {
       '@type': 'Organization',
-      name: 'GradFinder',
-      url: 'https://gradfinder.app',
+      name: 'Another Degree Hotter',
+      url: 'https://anotherdegreehotter.com',
     },
   }
 

@@ -1,4 +1,4 @@
-/* GradFinder — globals.css */
+/* Another Degree Hotter — globals.css */
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -25,6 +25,8 @@
   --gray-100: #f3f4f6;
   --gray-50:  #f9fafb;
   --white:    #ffffff;
+
+  --orange-pastel: #FFAB76;
 
   --font: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
   --radius:    8px;
@@ -74,25 +76,12 @@ body {
 .logo {
   display: flex;
   align-items: center;
-  gap: 6px;
-  font-size: 1.35rem;
+  font-size: 1.15rem;
   font-weight: 700;
-  color: var(--white);
+  color: var(--orange-pastel);
   text-decoration: none;
-}
-
-.logo__mark {
-  background: var(--white);
-  color: var(--green-700);
-  width: 32px;
-  height: 32px;
-  border-radius: var(--radius-sm);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1rem;
-  font-weight: 800;
-  flex-shrink: 0;
+  white-space: nowrap;
+  letter-spacing: -0.01em;
 }
 
 .site-header__tagline {

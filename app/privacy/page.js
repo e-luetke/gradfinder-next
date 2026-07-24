@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: 'Privacy Policy',
-  description: 'How GradFinder handles information about visitors to this site, including advertising cookies and third-party services.',
+  description: 'How Another Degree Hotter handles information about visitors to this site, including advertising cookies and third-party services.',
 }
 
 export default function PrivacyPage() {
@@ -27,7 +27,7 @@ export default function PrivacyPage() {
 
           <section className="guide-section">
             <p className="guide-section__para">
-              GradFinder ("we," "us," or "our") operates the website at gradfinder.app
+              Another Degree Hotter ("we," "us," or "our") operates the website at anotherdegreehotter.com
               (the "Site"). This Privacy Policy describes what information is collected when
               you visit the Site, how it is used, and what choices you have. By using the
               Site you agree to the practices described here.
@@ -174,7 +174,7 @@ export default function PrivacyPage() {
             <h2 className="guide-section__heading">Contact</h2>
             <p className="guide-section__para">
               Questions about this Privacy Policy? Email us at{' '}
-              <a href="mailto:contact@gradfinder.app">contact@gradfinder.app</a>.
+              <a href="mailto:contact@anotherdegreehotter.com">contact@anotherdegreehotter.com</a>.
             </p>
           </section>
 
@@ -183,7 +183,7 @@ export default function PrivacyPage() {
         <div className="legal-footer-links">
           <Link href="/tos">Terms of Service</Link>
           <span>·</span>
-          <Link href="/about">About GradFinder</Link>
+          <Link href="/about">About</Link>
         </div>
 
       </div>
