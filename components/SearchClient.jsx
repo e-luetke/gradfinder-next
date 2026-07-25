@@ -51,8 +51,11 @@ function relatedClass(val) {
 }
 
 const QUICK_TERMS = [
-  'Geography', 'Environmental Policy', 'Urban Planning',
-  'GIS', 'Public Policy', 'Sustainability', 'Conservation', 'Landscape Architecture',
+  'Engineering', 'Nursing', 'Public Health', 'Data Science',
+  'Computer Science', 'Psychology', 'Architecture', 'Economics',
+  'Social Work', 'Education', 'Journalism', 'Fine Arts',
+  'Sociology', 'Urban Planning', 'Geography', 'Environmental Policy',
+  'Business', 'GIS',
 ]
 
 // ── Card ──────────────────────────────────────────────────────────────────
@@ -212,7 +215,7 @@ export default function SearchClient({ programs }) {
               className="search-box__input"
               value={query}
               onChange={handleQueryChange}
-              placeholder={`Search by field, program, or school — e.g. "geography" or "environmental policy"`}
+              placeholder="Search by field, program, or school"
               autoComplete="off"
               spellCheck="false"
             />
