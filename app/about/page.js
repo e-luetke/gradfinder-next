@@ -28,25 +28,24 @@ export default function AboutPage() {
               across 26 fields at universities in the United States and Canada. It is built
               for prospective graduate students who want to quickly filter programs by
               minimum GPA, portfolio requirement, personal statement requirement, and
-              degree type — without wading through dozens of individual university
-              admissions pages.
+              degree type, without the hassle of looking at page, after page, after page…
             </p>
           </section>
 
           <section className="guide-section">
             <h2 className="guide-section__heading">Why We Built This</h2>
             <p className="guide-section__para">
-              Searching for graduate programs is genuinely tedious. Requirements like GPA
-              recommendations and portfolio expectations are often buried deep inside
-              admissions FAQs, scattered across multiple pages, or updated mid-cycle.
-              Another Degree Hotter aggregates the most commonly searched attributes into one
-              searchable, filterable list.
+              In short, university websites are poorly designed. We want to prevent the struggle
+              of getting redirected countless times on your way to figuring out if a program fits
+              your academic goals. Another Degree Hotter aggregates the most commonly searched
+              attributes into a single searchable and filterable list.
             </p>
             <p className="guide-section__para">
-              Every listing links directly to the official program admissions page at the
-              university, because that is always the authoritative source. Another Degree Hotter is a
-              starting point for research, not a substitute for reading the actual
-              admissions requirements.
+              In the end, though, you might need to take the dive into a university portal or two
+              (just not a dozen). Every graduate program listed includes a link to the official
+              program admissions page at the university, because that is always the authoritative
+              source. If you're really keen on a program after learning about it here, we encourage
+              you to check it out further on the school's own terms.
             </p>
           </section>
 
@@ -59,31 +58,16 @@ export default function AboutPage() {
               minimums or recommendations, degree names, application requirements (portfolio,
               personal statement), and country of the institution.
             </p>
-            <p className="guide-section__para">
-              Factual information about publicly available graduate programs — including
-              degree names, institutional affiliations, and admission requirements — is not
-              copyrightable under{' '}
-              <em>Feist Publications, Inc. v. Rural Telephone Service Co.</em>, 499 U.S. 340
-              (1991). University and program names are used for identification and indexing
-              under the nominative fair use doctrine.
-            </p>
-            <p className="guide-section__para">
-              GPA figures are often ranges or minimums stated by programs as recommendations,
-              not guarantees. A listed GPA of 3.5 does not mean you will or will not be
-              admitted with a 3.4 — it reflects what the program publicly describes as
-              typical or recommended. Always verify current requirements directly with
-              each program before applying.
-            </p>
           </section>
 
           <section className="guide-section">
             <h2 className="guide-section__heading">Data Currency</h2>
             <p className="guide-section__para">
-              Program requirements change. Deadlines change. Programs open, close, and
-              restructure. The data in Another Degree Hotter is reviewed periodically, but there will
-              always be a lag. The "Data reviewed 2025" note in the footer is the baseline;
-              we aim to refresh the dataset annually. If you find an error or an outdated
-              entry, please let us know using the contact address below.
+              Program requirements change over time! The data in Another Degree Hotter is reviewed
+              periodically, but there will always be a lag between real-world changes and updates
+              on the site. The "Data reviewed 2025" note in the footer is the baseline; we aim to
+              refresh the dataset regularly. If you find an error or an outdated entry, please let
+              us know using the contact address below.
             </p>
           </section>
 
@@ -103,12 +87,10 @@ export default function AboutPage() {
           <section className="guide-section">
             <h2 className="guide-section__heading">Contact</h2>
             <p className="guide-section__para">
-              For corrections, questions, or partnership inquiries, email us at{' '}
+              We want to hear from you! But actually, we do. For corrections to program data,
+              suggestions for programs to add, site feedback, questions, or partnership inquiries,
+              email us at{' '}
               <a href="mailto:contact@anotherdegreehotter.com">contact@anotherdegreehotter.com</a>.
-            </p>
-            <p className="guide-section__para">
-              Response time is typically 2–5 business days. We welcome corrections to
-              program data, suggestions for programs to add, and feedback on the site.
             </p>
           </section>
 
