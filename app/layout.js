@@ -14,6 +14,9 @@ export const metadata = {
     siteName: 'Another Degree Hotter',
     type: 'website',
   },
+  verification: {
+    google: 'uC9WxrPOseSxM4eIOlfxqSZBDC0jnunb6kvsa1f1Hg4',
+  },
 }
 
 export default function RootLayout({ children }) {
