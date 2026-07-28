@@ -778,7 +778,7 @@ input[type="range"]::-webkit-slider-thumb:hover { transform: scale(1.15); }
   .results-grid { grid-template-columns: 1fr; }
   .program-detail { padding: 20px 16px 48px; }
   .detail-title { font-size: 1.4rem; }
-  .quick-tags { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; }
+  .quick-tags { flex-wrap: wrap; }
 }
 
 /* ── Guide pages ─────────────────────────────────────────────────────────── */
