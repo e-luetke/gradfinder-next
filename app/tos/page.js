@@ -145,8 +145,8 @@ export default function TosPage() {
           <section className="guide-section">
             <h2 className="guide-section__heading">Governing Law</h2>
             <p className="guide-section__para">
-              These Terms are governed by the laws of the United States and the state in
-              which Another Degree Hotter is operated, without regard to conflict of law principles.
+              These Terms are governed by the laws of Canada and the Province of Alberta,
+              without regard to conflict of law principles.
             </p>
           </section>
 
