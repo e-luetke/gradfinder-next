@@ -1,5 +1,6 @@
 import './globals.css'
 import Link from 'next/link'
+import Script from 'next/script'
 import { PROGRAMS } from '@/lib/programs'
 
 export const metadata = {
@@ -22,6 +23,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-CQSPQ37Y00" strategy="afterInteractive" />
+        <Script id="ga4" strategy="afterInteractive">{`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-CQSPQ37Y00');
+        `}</Script>
+      </head>
       <body>
         <header className="site-header">
           <div className="site-header__inner">
