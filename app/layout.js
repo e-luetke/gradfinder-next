@@ -36,12 +36,17 @@ export default function RootLayout({ children }) {
       <body>
         <header className="site-header">
           <div className="site-header__inner">
-            <Link href="/" className="logo" aria-label="Another Degree Hotter — home">
-              <span className="logo__circle">°</span>
-            </Link>
-            <p className="site-header__tagline">
-              Graduate program browser — US &amp; Canada
-            </p>
+            <div className="logo-block">
+              <Link href="/" className="logo" aria-label="Another Degree Hotter — home">
+                <span className="logo__circle"><span className="logo__degree">°</span></span>
+              </Link>
+              <div className="logo-labels">
+                <Link href="/" className="logo__name">Another Degree Hotter</Link>
+                <p className="site-header__tagline">
+                  Graduate program browser — US &amp; Canada
+                </p>
+              </div>
+            </div>
             <nav style={{ marginLeft: 'auto' }}>
               <Link href="/guides" className="header-nav-link">Guides</Link>
             </nav>
